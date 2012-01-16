@@ -1,0 +1,21 @@
+{% extends "admin/change_form.html" %}
+
+{% block extrahead %}
+  
+  {{ block.super }}  
+  <script type="text/javascript" src="/static/js/wymeditor/jquery.wymeditor.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready( function() {
+        
+        jQuery("#id_html_body").wymeditor({
+                              skin: "django",
+                              lang: "en",
+                              stylesheet: "/static/css/wymeditor_styles.css",
+                              updateSelector: "input:submit", updateEvent: "click",
+                              
+                            });
+
+    });
+  </script>
+  
+{% endblock %}

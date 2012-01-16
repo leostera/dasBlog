@@ -1,0 +1,25 @@
+<div id="i-own-this-blog">
+  <span>Hey! I blog here.<br/><b>PROVE IT<b></span>
+    <form action="/admin/" method="post" id="login-form">
+      {% csrf_token %}
+      <div class="form-row">
+        {% if not login_form.this_is_the_login_form.errors %}
+          {{ login_form.username.errors }}
+        {% endif %}
+        {{ login_form.username }}
+        </div>
+        <div class="form-row">
+          {% if not form.this_is_the_login_form.errors %}
+            {{ login_form.password.errors }}
+          {% endif %}
+          {{ login_form.password }}
+        <input type="hidden" name="this_is_the_login_form" value="1" />
+        <input type="hidden" name="next" value="/blog/" />
+        </div>
+        <div class="submit-row">
+          <label>&nbsp;</label>
+          <input type="submit" value="Login" />
+        </div>
+    </form>
+  </span>
+</div>

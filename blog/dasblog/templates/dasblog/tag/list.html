@@ -1,0 +1,5 @@
+{% for tag in tags.all  %}
+    <a href="/blog/tag/{{ tag.slug }}" title="View all posts tagged {{ tag.title }}" rel="tag">
+        {{ tag.title }}
+    </a>
+{% endfor %} 

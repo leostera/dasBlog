@@ -1,0 +1,29 @@
+<header class="entry-header">        
+
+        <h1 class="entry-title">
+            <a href="/blog/{{ post.slug }}/#main" title="Permalink to {{ post.title }}" rel="bookmark">
+                {{ post.title }}
+            </a>
+        </h1>                
+
+        <div class="entry-meta">
+            <span class="sep"> — </span>                  
+            <span class="entry-date">Posted on {{ post.pub_date|date:"F j, Y" }}</span>
+        </div><!-- .entry-meta -->
+
+        <p class="comments-link">
+            <a href="/blog/{{ post.slug }}/#Comments" title="Comment on {{ post.title }}" id="to-the-comments">                
+                {% load comments %}
+
+                {% get_comment_count for post as comment_count %}
+
+                {% ifequal comment_count 0 %}
+                    <span class="no-reply">
+                {% else %}
+                    <span>
+                {% endifequal %}
+                
+                    {{ comment_count }}</span>    
+            </a>
+        </p>
+    </header>

@@ -1,0 +1,9 @@
+<article id="post-{{ post.id }}">
+    {% include "dasblog/post/head.html" %}<!-- .entry-header -->
+
+{% block post_body %}
+    {% include "dasblog/post/body.html" %}
+{% endblock post_body %}
+
+    {% include "dasblog/post/foot.html" %}
+</article><!-- #post -->

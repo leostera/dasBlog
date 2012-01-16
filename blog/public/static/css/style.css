@@ -1,0 +1,610 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border:0;
+	font-family:inherit;
+	font-size:100%;
+	font-style:inherit;
+	font-weight:inherit;
+	margin:0;
+	outline:0;
+	padding:0;
+	vertical-align:baseline;
+}
+
+html {
+	font-size: 62.5%;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	background:#fff;
+	line-height:1;
+	padding: 0 21%;
+	background: #EEE;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section{ 
+	display:block;
+}
+
+body {
+	color: #111;
+	font-size: 13px;
+	font: 1.3rem Verdana, sans-serif;
+	line-height: 1.615;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+	display: block;
+}
+
+h1, h2 {
+	font-family: Georgia, "Bitstream Charter", serif;
+	font-size: 20px;
+	font-size: 2rem;
+	line-height: 1.05;
+	margin-bottom: 0.15em;
+	padding-top: .85em;
+}
+
+#masthead { }
+
+#masthead > hgroup {
+	padding-top: 65px;
+	padding-bottom: 30px;
+	text-align:center;
+}
+
+#site-title {
+	border-bottom:1px solid #ddd;
+	display:inline-block;
+	font-family:Georgia, "Bitstream Charter", serif;
+	font-size:21px;
+	font-size:2.1rem;
+	line-height:1.15;
+	padding:0 2.954209748892% .275em;
+}
+
+a {
+	color: #B12930;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	outline: 0;
+}
+
+a:visited {
+	color: #B12930;
+}
+
+a:focus, a:active, a:hover {
+	text-decoration: none;
+}
+
+
+
+blockquote {
+	color: #777;
+	margin: 0 1.615em;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 40px;
+	-webkit-margin-end: 40px;
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+menu, dir {
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+
+div#overlay {
+	position: fixed;
+	width: 100%;
+	height: 37px;
+	top: 0;
+	left: 0;
+	color: #fff;
+	background-color: #323232;
+	display: block;
+	text-align: center;
+	z-index: 100;
+}
+
+div#overlay form {
+	display: inline;
+}
+
+.overlay-menu {
+	padding-top: 6px;
+	list-style: none;
+	text-transform:	uppercase;
+}
+
+
+.overlay-menu li {
+	display: inline;	
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: -webkit-match-parent;
+}
+
+div#content ol, ul {
+	list-style: none;
+}
+
+div#content ul {
+	list-style: square;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+
+div#content li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+dfn, cite, em, i {
+	font-style: italic;
+}
+
+b, strong {
+	font-weight: bold;
+}
+
+p {
+	margin-bottom: 1.615em;
+}
+
+
+#site-title a:hover,
+#site-title a:focus,
+#site-title a:active {
+	color:#000;
+	text-decoration:none;
+}
+
+#site-description {
+	color:#777;
+	font-family:Verdana, sans-serif;
+	font-size:11px;
+	font-size:1.1rem;
+	letter-spacing:0.05em;
+	line-height:1.52727272727274;
+	padding:0.382em 0;
+	text-transform:uppercase;
+}
+
+.entry-meta abbr {
+	border:none;
+	cursor:text;
+}
+
+.entry-header .sep {
+	color:#ccc;
+}
+
+.entry-header .entry-meta {
+	color:#777;
+	font-size:12px;
+	font-size:1.2rem;
+	line-height:2.1;
+}
+
+.entry-header .entry-date {
+	font-size:11px;
+	font-size:1.1rem;
+	letter-spacing:0.05em;
+	text-transform:uppercase;
+}
+
+.taxonomy-links {
+	background: #EEE;
+	color: #777;
+	display: table;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 2.1;
+	margin: 0;
+	padding: 0 .75em;
+}
+
+.taxonomy-links a:hover, .taxonomy-links a:focus, .taxonomy-links a:active {
+	color: #B12930;
+	text-decoration: none;
+}
+
+.taxonomy-links a, .post-edit-link {
+	color: #444;
+	font-style: italic;
+}
+
+.comments-link {
+	font-family: Georgia, "Bitstream Charter", serif;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-style: italic;
+	line-height: 1.4;
+	margin: 0;
+	position: absolute;
+	top: -.05em;
+	right: 0;
+}
+
+.comments-link a {
+	background: #EEE;
+	color: #777;
+	display: inline-block;
+	min-width: 2em;
+	padding: 0.05em .1em;
+	text-align: center;
+	padding-bottom: 6px;
+	padding-right: 4px;
+}
+
+.comments-link a:before {
+	border-color: transparent transparent transparent #EEE;
+	border-style: solid;
+	border-width: 0px 10px 10px 10px;
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	left: .3em;
+}
+
+.comments-link a:hover,
+.comments-link a:focus,
+.comments-link a:active {
+	background:#b12930;
+	color:#fff;
+	text-decoration:none;
+}
+
+.comments-link a:hover:before,
+.comments-link a:focus,
+.comments-link a:active {
+	border-color:transparent transparent transparent #b12930;
+}
+
+.no-reply {
+	visibility: hidden;
+}
+
+.entry-header {
+	position:relative;
+}
+
+.entry-title {
+	font-family:Georgia, "Bitstream Charter", serif;
+	font-size:21px;
+	font-size:2.1rem;
+	line-height:1.15;
+	margin:0 50px 0 0;
+	padding:0;
+}
+
+.entry-title a { } 
+
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active {
+	color:#000;
+	text-decoration:none;
+}
+
+.entry-content,
+.entry-summary {
+	margin:0.8075em 0 0 0;
+}
+
+.entry-content h1 {
+	border-bottom:1px solid #ddd;
+	padding-bottom:1.05em;
+}
+
+.entry-content blockquote {
+	position:relative;
+}
+
+.entry-content blockquote:before {
+	color:#111;
+	content:'“';
+	font-family:Georgia, "Bitstream Charter", serif;
+	font-size:94px;
+	font-size:9.4rem;
+	line-height:1;
+	position:absolute;
+	top:-.15em;
+	left:-.67em;
+}
+
+#page {
+	margin:0 auto;
+	background: white;
+}
+
+.fixed #page {
+	max-width:1120px;
+}
+
+#main {
+	clear: both;
+	padding: 3.23em 0 0;
+}
+
+#primary {
+	float:none;
+	margin:0;
+}
+
+#page #content {
+	margin:0 9.464285714286%;
+}
+
+
+#colophon {
+	clear: both;
+	border-top: 1px solid #DDD;
+	margin: 1.615em 0;
+	padding: 1.615em 0;
+}
+
+#colophon, #supplementary {
+	background:#000;
+	border-color:#333;
+	color:#ccc;
+}
+
+#site-info {
+	color: #777;
+	font-family: Verdana,sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 1.75;
+	padding: 1.615em 9.464285714286%;
+	text-align: center;
+}
+
+aside {
+	position: relative;
+    width: 500px;
+    height: 0px;
+    float: left;
+}
+
+aside span {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+aside span.star {
+    background: url(../images/date-bg.png) no-repeat;
+    height: 70px;
+    width: 60px;
+    margin: 0 0 -75px -70px;
+	padding: 7px 0 0 0;
+    font: bold 15px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(10, 10, 10, 1);
+}
+
+footer {
+	padding-bottom: 30px;
+}
+
+.read-more {
+	position:relative;
+	float:right;
+	text-transform: uppercase;	
+	font-size: 70%;
+}
+
+div#back-to-top {
+	position: fixed;
+	float: right;
+	height: 23px;
+	width: 150px;
+	bottom: 0;
+	right: 0;
+	color: #fff;
+	background-color: #323232;
+	display: block;
+	text-align: center;
+	vertical-align: baseline;
+	z-index: 100;	
+}
+
+div#back-to-top span {
+	padding-top: 5px;
+}
+
+div#i-own-this-blog {
+	position: fixed;
+	float: none;
+	height: 0px;
+	width: 150px;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+	background-color: #434343;
+	display: block;
+	text-align: center;
+	vertical-align: baseline;
+	z-index: 100;	
+}
+
+div#i-own-this-blog a {
+	color: white;
+}
+
+div#i-own-this-blog a:hover {
+	color: #878787;
+}
+
+div#i-own-this-blog span {
+	padding-top: 5px;
+}
+
+ul#quickadmin {
+	list-style: block;
+}
+
+a#feed {
+	position: relative;
+	float: right;
+	margin-top: -5px;
+	margin-right: 5px;
+	opacity: 0.7;
+}
+
+a:hover#feed {
+	opacity: 1;
+}
+
+div.comment {
+	display: block;
+	position: relative;
+	width: 600px;
+	margin: 0 auto;
+	padding: 21px 0;
+}
+
+div.comment-admin {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	padding: 21px 0;
+	width: 700px;
+	margin-left: -35px;
+}
+
+div.comment-body {
+	background-color: #F4F4F4;
+	border: 1px solid #DDD;
+	display:block;	
+	clear: both;
+	padding: 20px 12px;	
+}
+
+div.comment-body-admin {
+	background-color: #FF1414;
+	opacity: .7;
+	border: 1px solid #DDD;
+	display:block;	
+	clear: both;
+	padding: 20px 12px;	
+}
+
+div.comment-body-admin p {
+	opacity: 1;
+	margin-bottom: 0px;
+	color: white;
+}
+
+div.comment-body p {
+	margin-bottom: 0px;
+}
+
+div.comment-meta {
+	color: #777;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 2.1;
+	float: right;
+}
+
+div.comment-meta .comment-sep {
+	color: #CCC;
+}
+
+div.comment-meta .comment-date {
+	font-size: 11px;
+	font-size: 1.1rem;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+
+div.comment-form {
+	display: block;
+	position: relative;
+	margin: 40px auto;
+	width: 350px;
+	background-color: #F4F4F4;
+	border: 1px solid #DDD;
+	display:block;	
+	clear: both;
+	padding: 20px 12px;
+}
+
+div.comment-form span.comment-label {
+	font-size: 11px;
+	font-size: 1.1rem;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	width: 60px;
+	position:relative;
+}
+
+div.comment-form input {
+	float:right;
+	position:relative;
+	width: 240px;
+}
+
+div.comment-form input.fancy-text, div.comment-form textarea.fancy-text,
+form#search input.fancy-text, form#login-form input.fancy-text {
+	font-style: italic;
+	color: #AAA;
+}
+
+div.comment-form .submit{
+	width: auto;
+	margin-top: -10px;
+}
+
+span.comment-now {
+	float: left;
+	font-size: 70%;
+	padding-top: 5px;
+}
