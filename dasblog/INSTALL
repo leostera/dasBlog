@@ -1,0 +1,24 @@
+To install this application you need the following:
+
+In your urls (usually urls.py) include this:
+	# Das Blog urls
+	url(r'^blog/', include('blog.dasblog.urls')),
+
+Also make sure to include the common_forms template context processor in your settings file:
+	TEMPLATE_CONTEXT_PROCESSORS = ("django.contrib.auth.context_processors.auth",
+	"django.core.context_processors.debug",
+	"django.core.context_processors.i18n",
+	"django.core.context_processors.media",
+	"django.core.context_processors.static",
+	"django.contrib.messages.context_processors.messages",
+	"blog.dasblog.context_processors.common_forms")
+
+	# Import module specific settings
+	from dasblog.settings import *
+
+and add both this app and the django.contrib.comments to your installed apps.
+	# DasBlog
+    'django.contrib.comments',
+    'blog.dasblog',
+
+Do not forget to sync your db!
