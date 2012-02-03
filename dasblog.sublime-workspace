@@ -1,0 +1,568 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ifelse",
+				"ifelse: if... else..."
+			],
+			[
+				"if",
+				"if: if"
+			],
+			[
+				"background",
+				"background: background-color: name"
+			],
+			[
+				"border",
+				"border: border-width: size"
+			],
+			[
+				"font",
+				"font: font-size: size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "INSTALL",
+			"settings":
+			{
+				"buffer_size": 830,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 55.0,
+		"selected_items":
+		[
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"comit",
+				"Git: Commit"
+			],
+			[
+				"python",
+				"Set Syntax: Python Django"
+			],
+			[
+				"dj",
+				"Set Syntax: HTML (Django)"
+			],
+			[
+				"+",
+				"Set Syntax: C++"
+			],
+			[
+				"pus",
+				"Git: Push"
+			],
+			[
+				"Commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 157.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/usr/local/lib/python2.6/dist-packages/django_blog_zinnia-0.9-py2.6.egg/zinnia/settings.py",
+		"/usr/local/lib/python2.6/dist-packages/django_blog_zinnia-0.9-py2.6.egg/zinnia/models.py",
+		"/media/projects/django/RealFilling/__init__.py",
+		"/home/lea/.config/sublime-text-2/Packages/Default/Base File.sublime-settings",
+		"/home/lea/.config/sublime-text-2/Packages/Djaneiro/Model-Full.sublime-snippet",
+		"/home/lea/.config/sublime-text-2/Packages/Djaneiro/ModelForm.sublime-snippet",
+		"/home/lea/.config/sublime-text-2/Packages/Djaneiro/Model.sublime-snippet",
+		"/media/projects/django/RealFilling/views.py",
+		"/media/projects/django/RealFilling/urls.py",
+		"/media/projects/django/RealFilling/manage.py",
+		"/home/lea/.config/sublime-text-2/Packages/Default/Global.sublime-settings",
+		"/home/lea/.config/sublime-text-2/Packages/Djaneiro/MultilineComment.sublime-snippet",
+		"/home/lea/.config/sublime-text-2/Packages/Djaneiro/View.sublime-snippet",
+		"/media/projects/django/RealFilling/_/LastChat",
+		"/media/projects/django/IMakeApps/imakeapps.sublime-project",
+		"/media/projects/django/RealFilling/realfilling.sublime-project",
+		"/media/PROJECTS/django/RealFilling/realfilling.sublime-project",
+		"/home/lea/dell_drivers/broadcom-wl-5.10.56.27.3/driver/include/bcmnvram.h",
+		"/home/lea/dell_drivers/broadcom-wl-5.10.56.27.3/driver/include/typedefs.h",
+		"/home/lea/dell_drivers/broadcom-wl-5.10.56.27.3/driver/include/bcmcdc.h",
+		"/E/_docs/Python/DJANGO/Tutorial by example/lightbird/bbase.html",
+		"/X/RealFilling/static/css/layout.css",
+		"/X/RealFilling/subscribe/admin.py",
+		"/X/RealFilling/subscribe/views.py",
+		"/X/RealFilling/urls.py",
+		"/X/RealFilling/settings.py",
+		"/X/RealFilling/public/django.fcgi",
+		"/E/_docs/Python/DJANGO/Tutorial by example/lightbird/pygments.css",
+		"/C/Users/Leandro/AppData/Roaming/Sublime Text 2/Packages/Default/Base File.sublime-settings",
+		"/C/Users/Leandro/AppData/Roaming/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/Leandro/AppData/Roaming/Sublime Text 2/Packages/User/CSS.sublime-settings",
+		"/C/Users/Leandro/AppData/Roaming/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/X/RealFilling/subscribe/templates/subscribe/base.html",
+		"/X/RealFilling/subscribe/__init__.py",
+		"/X/RealFilling/templates/zinnia/skeleton.html",
+		"/X/RealFilling/subscribe/context_processors.py",
+		"/X/RealFilling/subscribe/forms.py",
+		"/X/RealFilling/subscribe/models.py",
+		"/X/RealFilling/website/context_processors.py",
+		"/X/RealFilling/website/forms.py",
+		"/X/RealFilling/website/models.py",
+		"/X/DasBlog/blog/dasblog/context_processors.py",
+		"/X/RealFilling/forms.py",
+		"/X/RealFilling/models.py",
+		"/X/RealFilling/views.py",
+		"/X/RealFilling/templates/press.html",
+		"/X/RealFilling/templates/products.html",
+		"/X/RealFilling/templates/what.html",
+		"/X/RealFilling/templates/zinnia/base.html",
+		"/X/RealFilling/templates/jobs.html",
+		"/E/_essel/jeremie.presstoplay/www/index.htm",
+		"/E/_essel/jeremie.conceptmm/www/services.php",
+		"/E/_essel/jeremie.presstoplay/www/js/jquery.nivo.slider.js",
+		"/E/_essel/jeremie.presstoplay/www/js/layout.js",
+		"/E/python/_extensions/django-blog-zinnia/zinnia/urls/__init__.py",
+		"/E/python/_extensions/django-blog-zinnia/zinnia/settings.py",
+		"/X/RealFilling/templates/zinnia/_entry_detail.html",
+		"/E/python/_extensions/django-blog-zinnia/zinnia/templates/zinnia/entry_list.html",
+		"/E/python/_extensions/django-blog-zinnia/zinnia/templates/zinnia/_entry_detail.html",
+		"/X/RealFilling/templates/zinnia/entry_list.html",
+		"/E/python/_extensions/django-blog-zinnia/zinnia/templates/zinnia/entry_detail.html",
+		"/E/python/_extensions/django-blog-zinnia/zinnia/urls/entries.py",
+		"/E/python/_extensions/django_blog_zinnia-0.10.dev-py2.7.egg/zinnia/settings.py",
+		"/X/RealFilling/manage.py",
+		"/E/python/_extensions/django-blog-zinnia/zinnia/views/decorators.py",
+		"/X/RealFilling/templates/test.html",
+		"/E/python/_extensions/django-blog-zinnia/zinnia/views/entries.py",
+		"/E/python/_extensions/django-blog-zinnia/zinnia/templatetags/zinnia_tags.py",
+		"/X/RealFilling/templates/base.html",
+		"/E/python/_extensions/django_blog_zinnia-0.10.dev-py2.7.egg/zinnia/templates/zinnia/skeleton.html",
+		"/E/python/_extensions/django-blog-zinnia/docs/install.rst",
+		"/E/python/_extensions/django-blog-zinnia/docs/templatetags.rst",
+		"/E/python/_extensions/django_blog_zinnia-0.10.dev-py2.7.egg/zinnia/templates/zinnia/base.html",
+		"/E/python/_extensions/django_blog_zinnia-0.10.dev-py2.7.egg/zinnia/templates/zinnia/entry_list.html",
+		"/E/python/_extensions/django_blog_zinnia-0.10.dev-py2.7.egg/zinnia/views/entries.py",
+		"/E/python/_extensions/django_blog_zinnia-0.10.dev-py2.7.egg/zinnia/views/__init__.py",
+		"/E/python/_extensions/django_blog_zinnia-0.10.dev-py2.7.egg/zinnia/urls/quick_entry.py",
+		"/E/python/_extensions/django_blog_zinnia-0.10.dev-py2.7.egg/zinnia/urls/__init__.py",
+		"/E/python/_extensions/django_blog_zinnia-0.10.dev-py2.7.egg/zinnia/urls/capabilities.py",
+		"/E/python/_extensions/django_blog_zinnia-0.10.dev-py2.7.egg/zinnia/urls/sitemap.py",
+		"/E/python/_extensions/django_blog_zinnia-0.10.dev-py2.7.egg/zinnia/urls/entries.py",
+		"/E/python/_extensions/django-blog-zinnia/zinnia/templates/zinnia/base.html",
+		"/X/DasBlog/blog/public/static/css/style.css",
+		"/X/DasBlog/blog/urls.py",
+		"/X/DasBlog/blog/settings.py",
+		"/X/RealFilling/static/css/reset.css",
+		"/X/RealFilling/__init__.py",
+		"/X/_repositories/imakeapps.blog.git/config",
+		"/X/ZinniaDemo/zinniademo/settings.py",
+		"/X/ZinniaDemo/zinniademo/urls.py",
+		"/E/python/_extensions/django-blog-zinnia/docs/api-ref/zinnia.url_shortener.rst",
+		"/E/python/_extensions/django-blog-zinnia/README.rst",
+		"/X/DasBlog/blog/dasblog/settings.py",
+		"/X/DasBlog/blog/dev/utils.py",
+		"/X/DasBlog/blog/django_xmlrpc/decorators.py",
+		"/X/DasBlog/blog/utils.py",
+		"/X/DasBlog/blog/dev/settings.py",
+		"/X/DasBlog/blog/dasblog/forms.py",
+		"/X/DasBlog/blog/dasblog/models.py",
+		"/X/DasBlog/blog/dasblog/fixtures/all-in-one.json",
+		"/X/DasBlog/blog/dasblog/xmlrpc/urls.py",
+		"/X/DasBlog/blog/dasblog/views.py",
+		"/D/games/Mount&Blade Warband/MBWMSChanger readme.txt",
+		"/C/Users/Leandro/.ssh/id_rsa.pub",
+		"/X/imakeapps.blog/blog/settings.py",
+		"/X/imakeapps.blog/blog/urls.py",
+		"/X/imakeapps.blog/blog/dasblog/xmlrpc/metaweblog.py",
+		"/X/imakeapps.blog/blog/dev/urls.py",
+		"/X/imakeapps.blog/blog/dasblog/context_processors.py",
+		"/X/imakeapps.blog/blog/dasblog/views.py",
+		"/X/imakeapps.blog/blog/dasblog/xmlrpc/pingback.py",
+		"/X/imakeapps.blog/blog/utils.py",
+		"/X/imakeapps.blog/blog/dasblog/settings.py",
+		"/C/Python27/Lib/site-packages/django/core/context_processors.py",
+		"/X/imakeapps.blog/blog/dasblog/contextprocessors.py",
+		"/X/imakeapps.blog/blog/templates/base.html",
+		"/X/imakeapps.blog/blog/dasblog/templates/dasblog/quicklogin.html",
+		"/X/imakeapps.blog/blog/dasblog/templates/dasblog/quickadmin.html",
+		"/X/imakeapps.blog/blog/public/static/css/style.css",
+		"/E/python/_extensions/django_sphinx-2.2.4-py2.7.egg/djangosphinx/models.py",
+		"/E/python/_extensions/django_sphinx-2.2.4-py2.7.egg/djangosphinx/__init__.py",
+		"/E/python/_extensions/django-blog-zinnia/zinnia/models.py",
+		"/X/imakeapps.blog/blog/dasblog/admin.py",
+		"/X/imakeapps.blog/blog/dasblog/templates/dasblog/admin/post/change_form.html",
+		"/X/imakeapps.blog/blog/templates/admin/base.html",
+		"/E/python/_extensions/django-blog-zinnia/zinnia/templates/admin/zinnia/entry/wymeditor.js",
+		"/X/imakeapps.blog/blog/dasblog/templates/dasblog/admin/post/add_form.html",
+		"/E/python/_extensions/django-blog-zinnia/zinnia/static/zinnia/js/wymeditor/jquery.wymeditor.js"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"    ",
+			"include",
+			"#include <",
+			"#",
+			"slide",
+			"slider",
+			"#slider",
+			"pagination",
+			"side",
+			"object",
+			"entries",
+			"li",
+			"demo.",
+			"PROJECT",
+			"context",
+			"usage",
+			"en-us",
+			"id",
+			"text",
+			"pre_save",
+			"_pre_save",
+			"pre_save",
+			"\"last_update\": null, ",
+			"rate",
+			"status",
+			"categories",
+			"example.com",
+			"removetags",
+			", ",
+			"',\n     '",
+			"('dasblog.xmlrpc.metaweblog.new_category',     	'wp.newCategory'),",
+			"category_structure",
+			"zinnia",
+			"dasblog.metaweblog.",
+			"metaweblog.",
+			"zinnia.xmlrpc.",
+			"XMLRPC",
+			"category",
+			"example.com",
+			"Tag",
+			"admin",
+			"fancy-text",
+			"Form",
+			"login",
+			"border",
+			"read-more",
+			"comments-link a",
+			"content",
+			"{",
+			"}",
+			";",
+			"comment-link",
+			"get_form(SearchFormView)",
+			"SearchFormView.get_form()",
+			".exists",
+			"posts",
+			"self.args['query']",
+			"div#overlay",
+			"form",
+			"ul",
+			"list-",
+			"entry",
+			"entry-meta",
+			"header",
+			"draft\": false",
+			"category",
+			"footer .entry-meta",
+			".entry-meta",
+			"\"",
+			"\"date\"",
+			"draft",
+			"site-info",
+			".comments-link a",
+			"#primary",
+			"#main",
+			"#page",
+			"body",
+			"	;\n\n",
+			"	;\n\n\n",
+			";",
+			"#masthead",
+			"input",
+			"form",
+			"peculiarity",
+			"features",
+			",\n      	\"is_peculiarity\": 1",
+			"\"model\": \"characters.peculiarity\", ",
+			"\"model\": \"characters.property\",",
+			",\n      	\"is_peculiarity\": 0",
+			"\"True\"",
+			"\"False\"",
+			"_(",
+			"Character",
+			"False",
+			"\"pk\":",
+			"services",
+			"horizontal",
+			".holder",
+			"div",
+			"</td>",
+			"tr",
+			"contact-form-",
+			"click(\"",
+			"webnow/",
+			"webnow/portfolio",
+			"taf.admin_login(self.selenium)",
+			"taf.__",
+			"taf.__admin_login(",
+			"taf.__click('",
+			"taf.__go_to_index(",
+			"self.__",
+			"taf.__",
+			"self.__",
+			"alias",
+			"present",
+			"exist",
+			"link",
+			"get_",
+			"url",
+			"c:\\users\\leandro\\appdata\\roaming\\python\\python27\\site-packages\\mock-0.8.0beta4-py2.7.egg",
+			"import sys; new=sys.path[sys.__plen:]; del sys.path[sys.__plen:]; p=getattr(sys,'__egginsert',0); sys.path[p:p]=new; sys.__egginsert = p+len(new)\n",
+			"c:\\users\\leandro\\appdata\\roaming\\python\\python27\\site-packages\\",
+			"#",
+			"check_",
+			"select_",
+			"link",
+			"wait",
+			"__root"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"	",
+			"zinniademo.",
+			"",
+			"attachments",
+			" ",
+			"     ",
+			"    ",
+			"dasblog.xmlrpc.metaweblog.",
+			"dasblog.metaweblog.",
+			"",
+			"tag",
+			"category",
+			"{\n	",
+			"\n}\n\n",
+			";\n	",
+			"get_form(SearchForm)",
+			"SearchFormView.get_form(SearchFormView)",
+			".exists()",
+			"attach",
+			"query",
+			"published\": true",
+			"tag",
+			"'",
+			"\\\"",
+			"\"pub_date\"",
+			"",
+			";\n	;\n\n",
+			";\n	;\n	",
+			";\n	",
+			"feature",
+			"",
+			"\"model\": \"characters.features\",",
+			"\"model\": \"characters.peculiarity\",",
+			"",
+			"1",
+			"0",
+			"u",
+			"Property",
+			"True",
+			"contact",
+			"</td></tr><tr>",
+			"td",
+			"id_",
+			"click(self.selenium,\"",
+			"services/",
+			"staff/",
+			"portfolio/portfolioentry",
+			"taf.admin_login(self)",
+			"taf.",
+			"taf.__admin_login(self.selenium",
+			"taf.__click(self.selenium,'",
+			"taf.__go_to_index(self.selenium",
+			"taf.__",
+			"self.__",
+			"taf.__",
+			"# And the auxiliary functions\ntaf.__",
+			"# ",
+			"__go_to_index",
+			"__root",
+			"services"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "INSTALL",
+					"settings":
+					{
+						"buffer_size": 830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								657,
+								657
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"push",
+				"website/templates/admin/prepopulated_fields_js.html"
+			],
+			[
+				"",
+				"website/settings.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true
+}

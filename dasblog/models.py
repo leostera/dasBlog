@@ -2,24 +2,23 @@ from django.db import models
 
 from django.template.defaultfilters import removetags, safe
 
-from dasblog.settings import HTML_TAGS
-
 import datetime
 
 class Tag(models.Model):
 	"""
-	Tag model
+	Tag model.
 	"""
+	title		= models.CharField(max_length=100,null=False)
+	slug		= models.SlugField(unique=True,null=False)
+	description	= models.CharField(max_length=250)
+
 	class Meta:
 		ordering = ['title']	
 		pass
 
-	title	= models.CharField(max_length=100,null=False)
-	slug	= models.SlugField(unique=True,null=False)
-
 	def __unicode__(self):
-		return (self.title, self.slug)
-
+		return self.title
+	
 	@models.permalink
 	def get_absolute_url(self):
 		return ('tag_posts', (), {'slug':self.slug,})
@@ -67,7 +66,7 @@ class Attachment(models.Model):
 	date	= models.DateField(default=datetime.datetime.today())
 	media	= models.FileField(max_length=100,upload_to='post-uploads')
 
-# TO DO: add this field and check how it can be auto-populated depending on file type.	
+	# TO DO: add this field and check how it can be auto-populated depending on file type.	
 	#mimetype= models.CharField(max_length=100,null=False)
 
 	def __unicode__(self):
@@ -109,13 +108,6 @@ class Post(models.Model):
 	-attachments:		m2m field for the attachments this post has
 	"""
 
-	class Meta:
-		"""
-		Model meta options. Mostly self-explanatory.
-		"""
-		ordering = ['-pub_date','published','id']
-		pass
-	
 	title 		= models.CharField(max_length=120,null=False)
 	slug		= models.SlugField(unique=True,null=False)
 
@@ -133,7 +125,17 @@ class Post(models.Model):
 	categories 	= models.ManyToManyField(Category)
 	attachments = models.ManyToManyField(Attachment,null=True)	
 
+	class Meta:
+		"""
+		Model meta options. Mostly self-explanatory.
+		"""
+		ordering = ['-pub_date','published','id']
+		pass
+
 	def __unicode__(self):
+		return self.title
+
+	def __str__(self):
 		return self.title
 
 	@models.permalink
