@@ -2,7 +2,7 @@ import datetime
 
 from django.contrib import admin
 
-from dasblog.models import *
+from models import *
 
 #models.Post
 class PostAdmin(admin.ModelAdmin):

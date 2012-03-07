@@ -1,4 +1,4 @@
-from blog.dasblog.forms import *
+from forms import *
 
 def common_forms(request):
 	return {'search_form':SearchForm(),

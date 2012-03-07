@@ -27,32 +27,40 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "INSTALL",
-			"settings":
-			{
-				"buffer_size": 830,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
 	{
-		"height": 55.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
-				"push",
-				"Git: Push"
+				"add*",
+				"Git: Add *"
 			],
 			[
 				"commit",
 				"Git: Commit"
 			],
 			[
+				"add a",
+				"Git: Add all."
+			],
+			[
 				"add",
 				"Git: Add..."
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"",
+				"Git: Add..."
+			],
+			[
+				"push",
+				"Git: Push"
 			],
 			[
 				"comit",
@@ -79,10 +87,6 @@
 				"Git: Commit"
 			],
 			[
-				"git add",
-				"Git: Add..."
-			],
-			[
 				"commi",
 				"Git: Commit"
 			],
@@ -99,7 +103,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -116,6 +120,17 @@
 	},
 	"file_history":
 	[
+		"/media/projects/django/DasBlog/dasblog/__init__.py",
+		"/media/projects/django/DasBlog/README",
+		"/media/projects/django/DasBlog/dasblog/views.py",
+		"/media/projects/django/DasBlog/dasblog/admin.py",
+		"/media/projects/django/DasBlog/dasblog/context_processors.py",
+		"/media/projects/django/DasBlog/dasblog/feeds.py",
+		"/home/lea/.config/sublime-text-2/Packages/Git/git.py",
+		"/home/lea/.config/sublime-text-2/Packages/Git/Default.sublime-commands",
+		"/home/lea/.config/sublime-text-2/Packages/Git/Git.sublime-settings",
+		"/media/projects/django/DasBlog/INSTALL",
+		"/media/projects/django/DasBlog/dasblog/models.py",
 		"/usr/local/lib/python2.6/dist-packages/django_blog_zinnia-0.9-py2.6.egg/zinnia/settings.py",
 		"/usr/local/lib/python2.6/dist-packages/django_blog_zinnia-0.9-py2.6.egg/zinnia/models.py",
 		"/media/projects/django/RealFilling/__init__.py",
@@ -232,18 +247,7 @@
 		"/C/Python27/Lib/site-packages/django/core/context_processors.py",
 		"/X/imakeapps.blog/blog/dasblog/contextprocessors.py",
 		"/X/imakeapps.blog/blog/templates/base.html",
-		"/X/imakeapps.blog/blog/dasblog/templates/dasblog/quicklogin.html",
-		"/X/imakeapps.blog/blog/dasblog/templates/dasblog/quickadmin.html",
-		"/X/imakeapps.blog/blog/public/static/css/style.css",
-		"/E/python/_extensions/django_sphinx-2.2.4-py2.7.egg/djangosphinx/models.py",
-		"/E/python/_extensions/django_sphinx-2.2.4-py2.7.egg/djangosphinx/__init__.py",
-		"/E/python/_extensions/django-blog-zinnia/zinnia/models.py",
-		"/X/imakeapps.blog/blog/dasblog/admin.py",
-		"/X/imakeapps.blog/blog/dasblog/templates/dasblog/admin/post/change_form.html",
-		"/X/imakeapps.blog/blog/templates/admin/base.html",
-		"/E/python/_extensions/django-blog-zinnia/zinnia/templates/admin/zinnia/entry/wymeditor.js",
-		"/X/imakeapps.blog/blog/dasblog/templates/dasblog/admin/post/add_form.html",
-		"/E/python/_extensions/django-blog-zinnia/zinnia/static/zinnia/js/wymeditor/jquery.wymeditor.js"
+		"/X/imakeapps.blog/blog/dasblog/templates/dasblog/quicklogin.html"
 	],
 	"find":
 	{
@@ -251,7 +255,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 91.0,
 		"where_history":
 		[
 			""
@@ -262,6 +266,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"add",
+			"get_tags",
 			"    ",
 			"include",
 			"#include <",
@@ -387,9 +393,7 @@
 			"#",
 			"check_",
 			"select_",
-			"link",
-			"wait",
-			"__root"
+			"link"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -469,33 +473,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "INSTALL",
-					"settings":
-					{
-						"buffer_size": 830,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								657,
-								657
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -530,6 +507,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.git":
+	{
+		"height": 110.0
+	},
 	"replace":
 	{
 		"height": 62.0

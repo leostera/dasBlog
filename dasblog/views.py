@@ -13,9 +13,9 @@ from django.shortcuts import render_to_response
 from django.db.models import Q
 
 # Import all models from DasBlog
-from blog.dasblog.models import *
+from models import *
 # Import all forms from DasBlog
-from blog.dasblog.forms	import *
+from forms	import *
 
 class SearchFormView(FormView):
 	"""
