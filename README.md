@@ -1,5 +1,5 @@
-#dasBlog
-##For blogging wasn't german enough.
+#das Blog
+###For blogging wasn't german enough.
 
 Hi there guys, this is a little blog made with Django 1.3 and _being ported_ to 1.4 that is capable of:
 * Post managing
@@ -11,7 +11,7 @@ Hi there guys, this is a little blog made with Django 1.3 and _being ported_ to 
 
 _Porting is a WIP so it might not work out of the box yet_
 
-##Ingredients
+###Ingredients
 
 It was a bit of a show & tell some time ago, so to keep that spirit alive here's a list of what this app uses:
 * Models that extend the base model class functionality and use it's hooks
@@ -23,11 +23,11 @@ It was a bit of a show & tell some time ago, so to keep that spirit alive here's
 * Admin panel registration for models incluiding extending the functionality and use of hooks
 * Use of urllibs, thou most of the XMLRPC was inspired by Zinnia.
 
-##Installation
+###Installation
 
 You'll need Django (>1.3) and django_xmlrpc.
 
-##Notes
+###Notes
 
 I'm no longer maintainning this repository after this has been fully ported to Django 1.4, yet you are welcomed and encouraged to clone it, fork it, use it and in the best case, learn something new.
 
