@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+	
+{% if go_to_hell %}
+	<h1>There are no matches for your query. Try another!</h1><br/>
+{% else %}
+	<div id="search-results">
+		{% if tags %}
+			<h1>{{ tags.count }} tag{%if tags.count > 1 %}s{% endif %} matched</h1>
+			<p class="tag-links taxonomy-links">
+			{% include "dasBlog/tag/list.html" %}  
+			</p>
+		{% endif %}
+
+		{% if categories %}
+			<h1>{{ categories.count }} categor{%if categories.count > 1 %}ies{% else %}y{% endif %} matched</h1>
+			<p class="cat-links taxonomy-links">
+			{% include "dasBlog/category/list.html" %}  			
+			</p>
+		{% endif %}
+		{% if posts %}
+			<h1>{{ posts.count }} post{%if posts.count > 1 %}s{% endif %} matched</h1>
+			{% for post in posts.all %}
+				{% include "dasBlog/post/short.html" %}
+			{% endfor %}	
+		{% endif %}
+	</div>
+{% endif %}
+
+
+{% endblock content %}

@@ -1,0 +1,409 @@
+[  
+  {
+    "pk": 1, 
+    "model": "auth.user", 
+    "fields": {
+      "username": "admin", 
+      "first_name": "", 
+      "last_name": "", 
+      "is_active": true, 
+      "is_superuser": true, 
+      "is_staff": true, 
+      "last_login": "2012-01-14 17:39:00", 
+      "groups": [], 
+      "user_permissions": [], 
+      "password": "sha1$63ed5$1442e65585bf9ba9ac7d254c694c34f2a0787cd8", 
+      "email": "admin@admin.com", 
+      "date_joined": "2011-08-27 01:02:37"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "auth.user", 
+    "fields": {
+      "username": "lea", 
+      "first_name": "Leandro", 
+      "last_name": "Ostera", 
+      "is_active": true, 
+      "is_superuser": false, 
+      "is_staff": true, 
+      "last_login": "2012-01-14 18:29:51", 
+      "groups": [], 
+      "user_permissions": [
+        25, 
+        28, 
+        26, 
+        27, 
+        29, 
+        30, 
+        31, 
+        38, 
+        39, 
+        40, 
+        35, 
+        36, 
+        37, 
+        41, 
+        42, 
+        43, 
+        32, 
+        33, 
+        34
+      ], 
+      "password": "sha1$92b8e$d2b0c5e97fe0482ce3a796bfbb17c7b206c489f7", 
+      "email": "leostera@gmail.com", 
+      "date_joined": "2012-01-02 15:02:27"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "sites.site", 
+    "fields": {
+      "domain": "127.0.0.1:8000", 
+      "name": "I Make Apps"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "dasBlog.tag", 
+    "fields": {
+      "slug": "agile", 
+      "title": "Agile"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "dasBlog.tag", 
+    "fields": {
+      "slug": "apache", 
+      "title": "Apache"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "dasBlog.tag", 
+    "fields": {
+      "slug": "challenge", 
+      "title": "Challenge"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "dasBlog.tag", 
+    "fields": {
+      "slug": "continuous-integration", 
+      "title": "Continuous Integration"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "dasBlog.tag", 
+    "fields": {
+      "slug": "django", 
+      "title": "Django"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "dasBlog.tag", 
+    "fields": {
+      "slug": "hudson", 
+      "title": "Hudson"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "dasBlog.tag", 
+    "fields": {
+      "slug": "mercurymail", 
+      "title": "MercuryMail"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "dasBlog.tag", 
+    "fields": {
+      "slug": "post-mortem", 
+      "title": "Post-mortem"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "dasBlog.tag", 
+    "fields": {
+      "slug": "projects", 
+      "title": "Projects"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "dasBlog.tag", 
+    "fields": {
+      "slug": "red-balls", 
+      "title": "Red Balls"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "dasBlog.tag", 
+    "fields": {
+      "slug": "refactoring", 
+      "title": "Refactoring"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "dasBlog.tag", 
+    "fields": {
+      "slug": "santa", 
+      "title": "Santa"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "dasBlog.tag", 
+    "fields": {
+      "slug": "scrum", 
+      "title": "Scrum"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "dasBlog.tag", 
+    "fields": {
+      "slug": "selenium", 
+      "title": "Selenium"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "dasBlog.tag", 
+    "fields": {
+      "slug": "setup", 
+      "title": "Setup"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "dasBlog.tag", 
+    "fields": {
+      "slug": "tdd", 
+      "title": "TDD"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "dasBlog.tag", 
+    "fields": {
+      "slug": "untagged", 
+      "title": "Untagged"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "dasBlog.category", 
+    "fields": {
+      "description": "", 
+      "slug": "blogging", 
+      "title": "Blogging"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "dasBlog.category", 
+    "fields": {
+      "description": "", 
+      "slug": "django", 
+      "title": "Django"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "dasBlog.category", 
+    "fields": {
+      "description": "", 
+      "slug": "everyday-coding", 
+      "title": "Everyday Coding"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "dasBlog.category", 
+    "fields": {
+      "description": "", 
+      "slug": "post-mortem", 
+      "title": "Post-mortem"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "dasBlog.category", 
+    "fields": {
+      "description": "", 
+      "slug": "uncategorized", 
+      "title": "Uncategorized"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "dasBlog.attachment", 
+    "fields": {
+      "date": "2012-01-12", 
+      "media": "post-uploads/Hudson.jpg", 
+      "name": "Hudson and Chuck's Happy-build Face", 
+      "slug": "hudson-and-chucks-happy-build-face"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "dasBlog.post", 
+    "fields": {
+      "body": "I\u2019ve researched everyday for around 8 hours for like 2 and a half weeks on how to properly setup my notebook to let me TDD my Django projects while CI them with nice reports and all the whistles and bells. Here I summarize what I currently have installed and running.\r\nDisclaimer: This is not intended to be a guide on how you should set it all up. I do not promise it will work for you but it did and still works for me.&nbsp; Feel free to ask if you have any questions thou, I\u2019d be happy to help.\r\nSummarizing (somehow this list is ordered I guess):\r\n\r\nDownload Sublime Text 2, it\u2019s Package control plugin and from there anything you need. I use Djaneiro and Sublime-Git (Install it from the Package-Control-&gt;Install-&gt;Git ) for handy django macros and built-in git support.\r\nInstall Python 2.7, SetupTools&nbsp;and PIP,\r\neasy_install or pip: django-1.3, django-nose, django-nose-selenium, CherryPy and nose-xcover.\r\nDownload Selenium-RC (last version I found was 1.15.0) and install a background service using whatever you like most.\r\nAlso useful can be the Selenium IDE Firefox Plugin\r\nDownload Hudson, run it and install it as a background service from it\u2019s management panel , with the Green Balls, Cobertura and Chuck Norris plugins\r\nMercury Mail as provided by XAMPP (you could as easily install XAMPP and also have Apache almost ready to server your Python files too! I use it mostly for PHP/MySQL development)\r\nmsysgit \u2013or git for Windows.\r\nApache as provided by XAMPP but with little modifications to work also as a git server.\r\n\r\nDoubts aside I believe I have steered the right way. God knows how many 1-2-3-Joy! guides I\u2019ve read and followed, yet none worked as promised. For those virtual-enver\u2019s, I do not care because this is the only stuff I\u2019m currently using Python for. I will use it if I need it, thou.\r\nBack to the topic, what this setup is capable of:\r\n\r\nRunning Django applications nicely with both the Django Test Server and the CheeryPy Live Server. Why CherryPy? Because it happens to be Multithread-Ready. Django\u2019s built-in server is not.\r\nExecuting Nose unit tests and Selenium powered functional tests using fixtures and exporting reports.\r\nExport Cobertura-like code-coverage reports.\r\nContinuously Integrate any project with Hudson checking out source changes from the local git repository served by Apache and use test and coverage generated reports to show some fancy graphs like this:\r\nUsual workflow goes: code a test, push, check for red balls, code and push until green balls, refactor\u2014it quite resembles the process a local software company where a friend of mine works at uses\u2026except for the balls.Push is just a CTRL+SHIFT+P, Add, + or the files I want to include in this commit, CTRL+SHIFT+P, Commit, &lt;Enter commit message&gt;, CTRL+W, CTRL+SHIFT+P, Push away.\r\nOf course there are shorter, handier ways but this gives me full control of what files I\u2019m adding, the process tends to be really well explained and it takes me less than 10 seconds to add all files, commit and push (writing the commit message is not taken in account here!).\r\nFull source revision control by using a local git repository that in any case you can also share with others. Those who use git know the benefits, those who don\u2019t, please have a sit, get a beer and check them out.\r\nWell, although it is fully centralized, it can be used for distributed teams with little modifications. I\u2019ve considered having another computer doing the Hudson/git/Apache/Mercury/Python/Django stuff, so I just code in my notebook and, once pushed, the magic happens somewhere else: I get a fancy Hudson page to check what to do next. If I need to manually assure my application is working as desired I can always browse &lt;enter-server-computer-ip-here&gt;. Sounds like a good idea to me, having a limited resources computer.\r\n\r\nI might be missing something, but so far this is it. I\u2019m planning to integrate PyLint (or better yet, a Django-Lint) to this scheme. I\u2019ll update any changes as soon as they become stable in my setup. See you later, alligator.\r\nFrom all the things that can make my day, seeing Chuck\u2019s happy-build face simply stands out.", 
+      "attachments": [
+        1
+      ], 
+      "comment_enabled": false, 
+      "title": "My Ultimate Test-driven continuously-integrated Django-capable Development Workstation Setup.", 
+      "deleted": false, 
+      "tags": [
+        11, 
+        12, 
+        2, 
+        13, 
+        14, 
+        15, 
+        16, 
+        8
+      ], 
+      "last_update": "2012-01-14 15:16:48", 
+      "published": true, 
+      "pub_date": "2012-01-11", 
+      "slug": "ultimate-td-ci-django-workstation-setup", 
+      "categories": [
+        2, 
+        4
+      ], 
+      "html_body": "<p>I\u2019ve researched everyday for around 8 hours for like 2 and a half weeks on how to properly setup my notebook to let me TDD my Django projects while CI them with nice reports and all the whistles and bells. Here I summarize what I currently have installed and running.</p>\r\n<blockquote><p><em>Disclaimer: This is not intended to be a guide on how you should set it all up. I do not promise it will work for you but it did and still works for me.&nbsp; Feel free to ask if you have any questions thou, I\u2019d be happy to help.</em></p></blockquote>\r\n<p>Summarizing (somehow this list is ordered I guess):</p>\r\n<ul>\r\n<li>Download <a title=\"Download Sublime Text 2\" href=\"http://www.sublimetext.com/2\" target=\"_blank\">Sublime Text 2</a>, it\u2019s <a title=\"Sublime Text 2 Package Control\" href=\"http://wbond.net/sublime_packages/package_control\" target=\"_blank\">Package control</a> plugin and from there anything you need. I use <a href=\"https://github.com/squ1b3r/Djaneiro\" target=\"_blank\">Djaneiro </a>and Sublime-Git (Install it from the Package-Control-&gt;Install-&gt;Git ) for handy django macros and built-in git support.</li>\r\n<li>Install <a href=\"http://python.org/download/releases/2.7.2/\" target=\"_blank\">Python 2.7</a>, <a href=\"http://pypi.python.org/pypi/setuptools\" target=\"_blank\">SetupTools</a>&nbsp;and <a href=\"http://pypi.python.org/pypi/pip\" target=\"_blank\">PIP</a>,</li>\r\n<li>easy_install or pip: django-1.3, django-nose, django-nose-selenium, CherryPy and nose-xcover.</li>\r\n<li>Download <a href=\"http://seleniumhq.org/download/\" target=\"_blank\">Selenium-RC</a> (last version I found was 1.15.0) and install a background service using whatever you like most.</li>\r\n<li>Also useful can be the Selenium IDE Firefox Plugin</li>\r\n<li>Download <a href=\"http://hudson-ci.org/download/\" target=\"_blank\">Hudson</a>, run it and install it as a background service from it\u2019s management panel , with the <a href=\"http://wiki.hudson-ci.org/display/HUDSON/Green+Balls\" target=\"_blank\">Green Balls</a>, <a href=\"http://wiki.hudson-ci.org/display/HUDSON/Cobertura+Plugin\" target=\"_blank\">Cobertura</a> and <a href=\"http://wiki.hudson-ci.org/display/HUDSON/ChuckNorris+Plugin\" target=\"_blank\">Chuck Norris</a> plugins</li>\r\n<li>Mercury Mail as provided by <a href=\"http://www.apachefriends.org/es/xampp.html\" target=\"_blank\">XAMPP </a>(you could as easily install XAMPP and also have Apache almost ready to server your Python files too! I use it mostly for PHP/MySQL development)</li>\r\n<li><a href=\"http://code.google.com/p/msysgit/\" target=\"_blank\">msysgit </a>\u2013or git for Windows.</li>\r\n<li>Apache as provided by XAMPP but with little modifications to work also as a git server.</li>\r\n</ul>\r\n<p>Doubts aside I believe I have steered the right way. God knows how many 1-2-3-Joy! guides I\u2019ve read and followed, yet none worked as promised. For those virtual-enver\u2019s, I do not care because this is the only stuff I\u2019m currently using Python for. I will use it if I need it, thou.</p>\r\n<p>Back to the topic, what this setup is capable of:</p>\r\n<ul>\r\n<li>Running Django applications nicely with both the Django Test Server and the CheeryPy Live Server. Why CherryPy? Because it happens to be Multithread-Ready. Django\u2019s built-in server is not.</li>\r\n<li>Executing Nose unit tests and Selenium powered functional tests using fixtures and exporting reports.</li>\r\n<li>Export Cobertura-like code-coverage reports.</li>\r\n<li>Continuously Integrate any project with Hudson checking out source changes from the local git repository served by Apache and use test and coverage generated reports to show some fancy graphs like this:<a href=\"/media/post-uploads/Hudson.jpg\"><img style=\"background-image:none;padding-left:0;padding-right:0;display:block;float:none;margin-left:auto;margin-right:auto;padding-top:0;border-width:0;\" title=\"Hudson\" src=\"/media/post-uploads/Hudson.jpg\" alt=\"Hudson and Chucks happy-build face\" width=\"244\" height=\"186\" border=\"0\"></a><br>\r\nUsual workflow goes: code a test, <strong>push</strong>, check for <span style=\"color:#b12930;\">red balls</span>, code and <strong>push</strong> until <span style=\"color:#008000;\">green balls</span>, refactor\u2014it quite resembles the process a local software company where a friend of mine works at uses\u2026except for the balls.<strong>Push </strong>is just a<em> CTRL+SHIFT+P, Add, + or the files I want to include in this commit, CTRL+SHIFT+P, Commit, &lt;Enter commit message&gt;, CTRL+W, CTRL+SHIFT+P, Push </em>away.<p></p>\r\n<p>Of course there are shorter, handier ways but this gives me full control of what files I\u2019m adding, the process tends to be really well explained and it takes me less than 10 seconds to add all files, commit and push (writing the commit message is not taken in account here!).</p></li>\r\n<li>Full source revision control by using a local git repository that in any case you can also share with others. Those who use git know the benefits, those who don\u2019t, please have a sit, get a beer and <a title=\"Git\" href=\"http://en.wikipedia.org/wiki/Git_(software)\" target=\"_blank\">check them out</a>.</li>\r\n<li>Well, although it is fully centralized, it can be used for distributed teams with little modifications. I\u2019ve considered having another computer doing the Hudson/git/Apache/Mercury/Python/Django stuff, so I just code in my notebook and, once pushed, the magic happens somewhere else: I get a fancy Hudson page to check what to do next. If I need to manually assure my application is working as desired I can always browse &lt;enter-server-computer-ip-here&gt;. Sounds like a good idea to me, having a limited resources computer.</li>\r\n</ul>\r\n<p>I might be missing something, but so far this is it. I\u2019m planning to integrate PyLint (or better yet, a Django-Lint) to this scheme. I\u2019ll update any changes as soon as they become stable in my setup. See you later, alligator.</p>\r\n<blockquote><p>From all the things that can make my day, seeing Chuck\u2019s happy-build face simply stands out.</p></blockquote>"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "dasBlog.post", 
+    "fields": {
+      "body": "I first dived into Python when I started this project mentioned here 18 days ago, on December the 22th. For my little sister Santa brought toys but my gift was a more profound one. It was a challenge: \u201cHey, Leandro, can you build a Django powered website? Can you learn and improve or will you just remain the same stubborn coder you were last year?\u201d\r\nBefore planning what the site would require to be functional and usable, I already wanted to do it like a pro. Having read a bunch of Scrum, TDD and Agile books, I decided I was going to use some sort of Scrum (more like Kanban) and TDD the whole project.\r\nMade up a stories list that was short enough: 13 user stories with scores between 1 and 3, based on the story \u2018difficulty\u2019, that covered both front-end (stuff you can do and some effects you should see) and back-end (add, change, delete) functionality for the site. I estimated I was capable of doing 1 story point per hour, so if the total story points was 27 it would take me 27 hours to finish the project. Being those tickets written in paper cards, I chose a wall and build my board there using 4 stages titled: \u201cStories Stack\u201d, \u201cW.I.P.\u201d, \u201cDone.\u201d and \u201cDeployed\u201d (from left to right).\r\nAt first the 13 cards were at the left column, then I just moved some of them to the second one. Half an hour later I had 2 cards at \u201cDone\u201d and two more down \u201cWIP\u201d and soon enough I realized I had to cut the maximum of story points I could handle at once if I didn\u2019t want to go nuts before the end of the project. First I said 5, but later it increased to 8 and that felt really natural and comfortable. Most of the tasks that required bigger time-span concentration had 3 story points and since there was few of them I had always one of those and a combination of the ones scoring 1 or 2, always taking care not to go over 8 under any circumstances.\r\nThe \u201cDone\u201d column meant \u2018wait until all related tasks are ready and, if everything within that module works flawlessly, deploy it\u2019. And there I found that a limit of 4 story points pushed me into choosing related tasks to be performed earlier so I could release earlier. That limit is relative: if I have 3 items that are extremely related and in total they make 7 points (meaning at least one of them will have to wait outside that column) the 4-points-limit can be ignored for that third item but no new ones (even if just as related) can be added until the \u201cDone\u201d column is empty again. I doubt \u201cDone\u201d is an accurate name but I couldn\u2019t make up any other.\r\nFor statistics sake: around 300 lines of code were written, not including Django\u2019s settings.py, any template code, comments or doc-strings, batch-helpers, build-commands nor whatever, just Python code, in almost 13 hours of development along this 18-days time span since December 22th. That would make it around 23.07 Lines of Code / Hour and what\u2019s considerably more important to me: around 2 Story Points / Hour, which is half the time I actually expected. Also time spent reading Django\u2019s documentation, tutorials and related articles is not being taken in account here. It totally outweighs development time!\r\nI was quite surprised at first when I finished deploying the last set of stories regarding a contact form and a specially modified admin panel so it doesn\u2019t allow modification of the entries saved by that contact form. I mean, I started tracking the development with a local git repository 10 days ago, and just a few days before that I had a continuous integration server running along while coding. It took me circa 135 freaking test runs to have it completed\u2026who knows how many red balls I got until the last final green ball!\r\nWhat I learned from this experience: I need to be a little more pushy with my expectations on unknown/new platforms/frameworks from now own. I will be using my Scru-Ban board for later projects. I\u2019ve found that Django can be a hell of a friend given the right use. TDD+CI rocks at many levels, giving me time to go grab a Coke while building and the confidence that if any changes I make while refactoring leads to a failing test they will complain. Loud.\r\nAnd that Santa can seriously motivate me to set my bar higher.\r\nThat\u2019s it for today. Next post is about the tools I used to develop this project.", 
+      "attachments": [
+        1
+      ], 
+      "comment_enabled": false, 
+      "title": "Mission Accomplished", 
+      "deleted": false, 
+      "tags": [
+        9, 
+        6, 
+        2, 
+        4, 
+        3, 
+        10, 
+        5, 
+        7, 
+        8
+      ], 
+      "last_update": "2012-01-14 15:16:48", 
+      "published": true, 
+      "pub_date": "2012-01-10", 
+      "slug": "mission-accomplished", 
+      "categories": [
+        2, 
+        3
+      ], 
+      "html_body": "<p>I first dived into Python when I started <a href=\"https://imakeapps.wordpress.com/2012/01/06/project-wide-refactorizations/\">this project mentioned here</a> 18 days ago, on December the 22th. For my little sister Santa brought toys but my gift was a more profound one. It was a challenge: \u201c<em>Hey, Leandro, can you build a Django powered website? Can you learn and improve or will you just remain the same stubborn coder you were last year?\u201d</em></p>\r\n<p>Before planning what the site would require to be functional and usable, I already wanted to do it like a pro. Having read a bunch of Scrum, TDD and Agile books, I decided I was going to use some sort of Scrum (more like Kanban) and TDD the whole project.</p>\r\n<p>Made up a stories list that was short enough: 13 user stories with scores between 1 and 3, based on the story \u2018difficulty\u2019, that covered both front-end (stuff you can do and some effects you should see) and back-end (add, change, delete) functionality for the site. I estimated I was capable of doing 1 story point per hour, so if the total story points was 27 it would take me 27 hours to finish the project. Being those tickets written in paper cards, I chose a wall and build my board there using 4 stages titled: \u201cStories Stack\u201d, \u201cW.I.P.\u201d, \u201cDone.\u201d and \u201cDeployed\u201d (from left to right).</p>\r\n<p>At first the 13 cards were at the left column, then I just moved some of them to the second one. Half an hour later I had 2 cards at \u201cDone\u201d and two more down \u201cWIP\u201d and soon enough I realized I had to cut the maximum of story points I could handle at once if I didn\u2019t want to go nuts before the end of the project. First I said 5, but later it increased to 8 and that felt really natural and comfortable. Most of the tasks that required bigger time-span concentration had 3 story points and since there was few of them I had always one of those and a combination of the ones scoring 1 or 2, always taking care not to go over 8 under any circumstances.</p>\r\n<p>The \u201cDone\u201d column meant \u2018wait until all related tasks are ready and, if everything within that module works flawlessly, deploy it\u2019. And there I found that a limit of 4 story points pushed me into choosing related tasks to be performed earlier so I could release earlier. That limit is relative: if I have 3 items that are extremely related and in total they make 7 points (meaning at least one of them will have to wait outside that column) the 4-points-limit <strong>can be ignored</strong> for that third item but no new ones (even if just as related) can be added until the \u201cDone\u201d column is empty again. I doubt \u201cDone\u201d is an accurate name but I couldn\u2019t make up any other.</p>\r\n<p>For statistics sake: around 300 lines of code were written, not including Django\u2019s settings.py, any template code, comments or doc-strings, batch-helpers, build-commands nor whatever, just Python code, in almost 13 hours of development along this 18-days time span since December 22th. That would make it around 23.07 Lines of Code / Hour and what\u2019s considerably more important to me: around 2 Story Points / Hour, which is half the time I actually expected. Also time spent reading Django\u2019s documentation, tutorials and related articles is not being taken in account here.<em> It totally outweighs development time!</em></p>\r\n<p>I was quite surprised at first when I finished deploying the last set of stories regarding a contact form and a specially modified admin panel so it doesn\u2019t allow modification of the entries saved by that contact form. I mean, I started tracking the development with a local git repository 10 days ago, and just a few days before that I had a continuous integration server running along while coding. It took me circa 135 freaking test runs to have it completed\u2026who knows how many <a href=\"http://hudson-ci.org/\">red balls</a> I got until the last final <a href=\"http://green%20balls%20plugin/\">green ball</a>!</p>\r\n<p>What I learned from this experience: I need to be a little more pushy with my expectations on unknown/new platforms/frameworks from now own. I will be using my Scru-Ban board for later projects. I\u2019ve found that Django can be a hell of a friend given the right use. TDD+CI rocks at many levels, giving me time to go grab a Coke while building and the confidence that if any changes I make while refactoring leads to a failing test <strong>they will complain. Loud.</strong></p>\r\n<p>And that Santa can seriously motivate me to set my bar higher.</p>\r\n<p>That\u2019s it for today. Next post is about the tools I used to develop this project.</p>"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "dasBlog.post", 
+    "fields": {
+      "body": "In my years as a developer I have come across a few projects that half-way thru demanded major structure, design or API changes, and God knows how much it can suck&nbsp; brain-draining it can be given the proper circumstances.\r\nToday, while I was working on my first Django project ever, I had to do a project-wide refactorization. Not only I had outstandingly violated Django\u2019s philosophy of \u2018pluggable\u2019 apps but I also realized my test cases had become incredibly big for such a small thingy.\r\nSo I said: \u2018Let each section of the website be a pluggable app\u2019.\r\nAnd a shinny 2-items to-do list for each line of code in each new app was created as thrown exceptions, failed assertions, unresolvable paths and not-found functions and models.\r\nThen I said: \u2018Shit.\u2019\r\n23 git-pushes, each one with it\u2019s paired CI build, tests results and code coverage fancy graphs, and 2 hours of agony and red balls later I was finally able to plug any of the features my little website has now: A simple portfolio, an about page listing staff members, a services listing page and contact form \u2013this one is still wip.\r\nI had to refactor common functions used in the Big Fat Test Case and find a place for them somewhere in the root directory of the project, since they were copy-pasted in each of the flaming new apps. By now they are just functions in a .py file, in the future I\u2019ll probably start wrapping them in a base class that includes everything I\u2019m using right now and a bit more. Also, all template paths changed and I managed to get rid of my ol\u2019 views and use only generic ones.\r\nBack to the main topic of this post: In this case it was worth doing it. I\u2019ve learned that pluggable apps rock and I feel SO generic\u2026ever had that feeling?\r\n\r\nI will probably be writing a how I setup Django, Hudson, Selenium, and a bunch of other stuff you would probably be interested in soon, so stay tuned!", 
+      "attachments": [
+        1
+      ], 
+      "comment_enabled": true, 
+      "title": "Project-wide refactorizations", 
+      "deleted": false, 
+      "tags": [
+        2, 
+        3, 
+        17
+      ], 
+      "last_update": "2012-01-14 15:16:48", 
+      "published": true, 
+      "pub_date": "2012-01-05", 
+      "slug": "project-wide-refactorizations", 
+      "categories": [
+        2, 
+        4
+      ], 
+      "html_body": "<p>In my years as a developer I have come across a few projects that half-way thru demanded major structure, design or API changes, and God knows how much <span style=\"text-decoration:line-through;\">it can suck</span>&nbsp; brain-draining it can be given the proper circumstances.</p>\r\n<p>Today, while I was working on my first Django project ever, I had to do a project-wide refactorization. Not only I had outstandingly violated Django\u2019s philosophy of <em>\u2018pluggable\u2019 </em>apps but I also realized my test cases had become incredibly big for such a small thingy.</p>\r\n<p>So I said: \u2018Let each section of the website be a pluggable app\u2019.</p>\r\n<p>And a shinny 2-items to-do list for each line of code in each new app was created as thrown exceptions, failed assertions, unresolvable paths and not-found functions and models.</p>\r\n<p><span style=\"text-decoration:line-through;\">Then I said: \u2018Shit.\u2019</span></p>\r\n<p>23 git-pushes, each one with it\u2019s paired CI build, tests results and code coverage fancy graphs, and 2 hours of agony and <a href=\"http://hudson-ci.org/\" target=\"_blank\">red balls</a> later I was finally able to <em>plug</em> any of the features my little website has now: A simple portfolio, an about page listing staff members, a services listing page and contact form \u2013this one is still wip.</p>\r\n<p>I had to refactor common functions used in the Big Fat Test Case and find a place for them somewhere in the root directory of the project, since they were copy-pasted in each of the flaming new apps. By now they are just functions in a .py file, in the future I\u2019ll probably start wrapping them in a base class that includes everything I\u2019m using right now and a bit more. Also, all template paths changed and I managed to get rid of my ol\u2019 views and use only generic ones.</p>\r\n<p>Back to the main topic of this post: In this case it was worth doing it. I\u2019ve learned that <em>pluggable apps</em> rock and I feel SO generic\u2026ever had that feeling?</p>\r\n<p><a href=\"http://imakeapps.files.wordpress.com/2012/01/foto_a0605.jpg\"><img style=\"background-image:none;padding-left:0;padding-right:0;display:block;float:none;margin-left:auto;margin-right:auto;padding-top:0;border-width:0;\" title=\"Foto_A0605\" src=\"./I MAKE APPS   A bit-acora on development_files/foto_a0605_thumb.jpg\" alt=\"Foto_A0605\" width=\"244\" height=\"184\" border=\"0\"></a></p>\r\n<p>I will probably be writing a how I setup Django, Hudson, Selenium, and a bunch of other stuff you would probably be interested in soon, so stay tuned!</p>"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "dasBlog.post", 
+    "fields": {
+      "body": "It\u2019s rather hard to start blogging from scratch, even having guidelines from really talented and popular guys like Scott Hanselman or Jeff Atwood.&nbsp; I mean, they do set the bar high.\r\nWho am I? My name is Leandro Ostera. A 20 years old Software Engineering student who\u2019s been a programmer since\u2026well, I wouldn\u2019t say 11 but what the heck\u2026since a long time. Always learning a bit more, pushing my limits.\r\nNice to meet you, too.\r\nWhy am I doing this? Honestly, chicks. Besides that because I tend to be a bit of a social person and sharing my thoughts in a blog is a way that feels most natural to me, proudly being the computer nerd of the classroom for years (and counting). The exact other option for me at this level is to play bass in front of other people but that isn\u2019t as communicative as words can be and of course, it\u2019s quite harder to explain how you setup your local workstation in basslines \u2013even if you can play some kind of morse code mixup and have an audience that actually understands what you play realtime.\r\nEnough of this clich\u00e9 introductions. Let\u2019s get to the real deal. Right now.\r\nI Make Apps.\r\nThat\u2019s totally stolen from Scott\u2019s I Know Apps. Totally. Yet it suits perfectly what I was trying to expose here. The thing is that I make apps. For smartphones, for computers. To amuse, to aid, to increase productivity and sales. Apps. In C, in C++, in Java, in PHP, in Python, in whatever I have to learn to reach my goals. Using SDL, OpenGL, Ogre, Irrlicht, OpenAL, MySQL++, cURL, Marmalade, Box2D, Chipmunk \u2013notice how many if not every single lib/sdk from this list is available for AND developed in C/C++? I used to be kinda picky whenever I had a chance. That had been my deal for yeeeeears, but know I\u2019m really more into using the right tool to solve a problem\u2013 or whatever other package I have to use to reach my goals. Apps.\r\nI know it\u2019s not that easy and that sometimes a simple switch to a new coding style can drive you nuts. Or that sometimes you have to let go that incredibly awesome special dooby dooby project of yours because time ain\u2019t enough or whatever reasons circumstances might impose.\r\nIn this blog I\u2019m going to share, in a {{ timespan }} basis, how I do things, how other people do the same things, why I do things the way I do, and so on.\r\nSigh, I\u2019m blogging.&nbsp; We\u2019ll see how long it lasts!\r\nOh, almost forgot. I\u2019m not a native english speaker so\u2026that\u2019s it. I make apps.", 
+      "attachments": [
+        1
+      ], 
+      "comment_enabled": false, 
+      "title": "Yes, I do \u2013or at least I try.", 
+      "deleted": false, 
+      "tags": [
+        1
+      ], 
+      "last_update": "2012-01-14 15:16:48", 
+      "published": true, 
+      "pub_date": "2012-01-02", 
+      "slug": "yes-i-do-or-least-i-try", 
+      "categories": [
+        5
+      ], 
+      "html_body": "<p>It\u2019s rather hard to start blogging from scratch, even having guidelines from really talented and popular guys like <a href=\"http://www.hanselman.com/\" target=\"_blank\">Scott Hanselman</a> or <a href=\"http://www.codinghorror.com/blog/\" target=\"_blank\">Jeff Atwood</a>.&nbsp; I mean, they do set the bar <em>high.</em></p>\r\n<p><strong>Who</strong> am I? My name is Leandro Ostera. A 20 years old Software Engineering student who\u2019s been a programmer since\u2026well, I wouldn\u2019t say 11 but what the heck\u2026since a long time. Always learning a bit more, pushing my limits.</p>\r\n<p>Nice to meet you, too.</p>\r\n<p><strong>Why</strong> am I doing this? Honestly, chicks. Besides that because I tend to be a bit of a social person and sharing my thoughts in a blog is a way that feels most natural to me, <strike>proudly </strike>being the computer nerd of the classroom for years (and counting). The exact other option for me at this level is to play bass in front of other people but that isn\u2019t as communicative as words can be and of course, it\u2019s quite harder to explain how you setup your local workstation in basslines \u2013even if you can play some kind of morse code mixup and have an audience that actually understands what you play realtime.</p>\r\n<p>Enough of this clich\u00e9 introductions. Let\u2019s get to the real deal. Right now.</p>\r\n<p>I Make Apps.</p>\r\n<p>That\u2019s <strong>totally</strong> stolen from Scott\u2019s <a href=\"http://www.hanselman.com/blog/IKnowApps.aspx\" target=\"_blank\">I Know Apps</a>. Totally. Yet it suits perfectly what I was trying to expose here. The thing is that I make apps. For smartphones, for computers. To amuse, to aid, to increase productivity and sales. Apps. In C, in C++, in Java, in PHP, in Python, in whatever I have to learn to reach my goals. Using SDL, OpenGL, Ogre, Irrlicht, OpenAL, MySQL++, cURL, Marmalade, Box2D, Chipmunk \u2013notice how many if not every single lib/sdk from this list is available for AND developed in C/C++? I used to be kinda picky whenever I had a chance. That had been my deal for yeeeeears, but know I\u2019m really more into using the right tool to solve a problem\u2013 or whatever other package I have to use to reach my goals. Apps.</p>\r\n<p>I know it\u2019s not that easy and that sometimes a simple switch to a new coding style can drive you nuts. Or that sometimes you have to let go that incredibly awesome special dooby dooby project of yours because time ain\u2019t enough or whatever reasons circumstances might impose.</p>\r\n<p>In this blog I\u2019m going to share, in a {{ timespan }} basis, how I do things, how other people do the same things, why I do things the way I do, and so on.</p>\r\n<p>Sigh, I\u2019m <strong>blogging</strong>.&nbsp; We\u2019ll see how long it lasts!</p>\r\n<p>Oh, almost forgot. I\u2019m not a native english speaker so\u2026that\u2019s it. I make apps.</p>"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "comments.comment", 
+    "fields": {
+      "comment": "I love this site!", 
+      "user_url": "http://blogmaker.wordpress.com/", 
+      "submit_date": "2012-01-14 18:05:02", 
+      "ip_address": "127.0.0.1", 
+      "object_pk": "3", 
+      "site": 1, 
+      "is_removed": false, 
+      "user": 1, 
+      "content_type": 14, 
+      "is_public": true, 
+      "user_name": "What's your name?", 
+      "user_email": "lenny@localhost.com"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "comments.comment", 
+    "fields": {
+      "comment": "Test.\r\n", 
+      "user_url": "http://www.site.com/", 
+      "submit_date": "2012-01-14 18:06:47", 
+      "ip_address": "127.0.0.1", 
+      "object_pk": "3", 
+      "site": 1, 
+      "is_removed": false, 
+      "user": null, 
+      "content_type": 14, 
+      "is_public": true, 
+      "user_name": "Okey", 
+      "user_email": "Addressss@adress.com"
+    }
+  }
+]
