@@ -1,4 +1,4 @@
-#das Blog
+#das Blog (discontinued)
 ###For blogging wasn't german enough.
 
 Hi there guys, this is a little blog made with Django 1.3 and _being ported_ to 1.4 that is capable of:
